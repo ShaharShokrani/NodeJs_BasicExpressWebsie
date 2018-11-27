@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_basicexpresswebsie",
+  "version": "1.0.0",
+  "description": "Basic Express website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaharShokrani/NodeJs_BasicExpressWebsie.git"
+  },
+  "author": "Shahar Shokrani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "jade": "*",
+    "nodemailer": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/ShaharShokrani/NodeJs_BasicExpressWebsie/issues"
+  },
+  "homepage": "https://github.com/ShaharShokrani/NodeJs_BasicExpressWebsie#readme"
+}
