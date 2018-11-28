@@ -15,8 +15,8 @@
   "dependencies": {
     "express": "*",
     "body-parser": "*",
-    "jade": "*",
-    "nodemailer": "*"
+    "nodemailer": "*",
+    "mustache": "*"
   },
   "bugs": {
     "url": "https://github.com/ShaharShokrani/NodeJs_BasicExpressWebsie/issues"
