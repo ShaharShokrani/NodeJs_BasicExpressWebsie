@@ -21,15 +21,15 @@ app.engine('html', function (filePath, options, callback) {
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','html');
 
-app.use(express.static(path.join(__dirname,'views')));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-    extended:false
-}));
+app.use(express.static(path.join(__dirname,'/static')));
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({
+//     extended:false
+// }));
 
 app.get('/', function(req, res){
     console.log('Hello world');
-    res.render('index', {name: 'Shahar'});
+    res.render('index.html', {name: 'Shahar'});
 });
 
 app.listen(3000);
