@@ -29,7 +29,12 @@ app.use(express.static(path.join(__dirname,'/static')));
 
 app.get('/', function(req, res){
     console.log('Hello world');
-    res.render('index.html', {name: 'Shahar'});
+    res.render('index', {name: 'Shahar'});
+});
+
+app.get('/about', function(req, res){
+    console.log('About router');
+    res.render('about', {name: 'Shahar'});
 });
 
 app.listen(3000);
